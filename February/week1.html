@@ -1,0 +1,649 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title> Legal Tech Kenya Open Source Community </title>
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+
+    .button-59 {
+      align-items: center;
+      background-color: #fff;
+      border: 2px solid #000;
+      box-sizing: border-box;
+      color: #000;
+      cursor: pointer;
+      display: inline-flex;
+      fill: #000;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      height: 48px;
+      justify-content: center;
+      letter-spacing: -.8px;
+      line-height: 24px;
+      min-width: 140px;
+      outline: 0;
+      padding: 0 17px;
+      text-align: center;
+      text-decoration: none;
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    .button-59:focus {
+      color: #171e29;
+    }
+
+    .button-59:hover {
+      border-color: #06f;
+      color: #06f;
+      fill: #06f;
+    }
+
+    .button-59:active {
+      border-color: #06f;
+      color: #06f;
+      fill: #06f;
+    }
+
+    @media (min-width: 768px) {
+      .button-59 {
+        min-width: 170px;
+      }
+    }
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
+  </style>
+  <!--<![endif]-->
+  <style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-60 {
+        width: 60% !important;
+        max-width: 60%;
+      }
+
+      .mj-column-per-40 {
+        width: 40% !important;
+        max-width: 40%;
+      }
+
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-45 {
+        width: 45% !important;
+        max-width: 45%;
+      }
+
+      .mj-column-per-11 {
+        width: 11% !important;
+        max-width: 11%;
+      }
+
+      .mj-column-per-89 {
+        width: 89% !important;
+        max-width: 89%;
+      }
+
+      .mj-column-per-75 {
+        width: 75% !important;
+        max-width: 75%;
+      }
+
+      .mj-column-per-25 {
+        width: 25% !important;
+        max-width: 25%;
+      }
+
+      .mj-column-per-65 {
+        width: 65% !important;
+        max-width: 65%;
+      }
+
+      .mj-column-per-35 {
+        width: 35% !important;
+        max-width: 35%;
+      }
+    }
+  </style>
+  <style media="screen and (min-width:480px)">
+    .moz-text-html .mj-column-per-60 {
+      width: 60% !important;
+      max-width: 60%;
+    }
+
+    .moz-text-html .mj-column-per-40 {
+      width: 40% !important;
+      max-width: 40%;
+    }
+
+    .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-45 {
+      width: 45% !important;
+      max-width: 45%;
+    }
+
+    .moz-text-html .mj-column-per-11 {
+      width: 11% !important;
+      max-width: 11%;
+    }
+
+    .moz-text-html .mj-column-per-89 {
+      width: 89% !important;
+      max-width: 89%;
+    }
+
+    .moz-text-html .mj-column-per-75 {
+      width: 75% !important;
+      max-width: 75%;
+    }
+
+    .moz-text-html .mj-column-per-25 {
+      width: 25% !important;
+      max-width: 25%;
+    }
+
+    .moz-text-html .mj-column-per-65 {
+      width: 65% !important;
+      max-width: 65%;
+    }
+
+    .moz-text-html .mj-column-per-35 {
+      width: 35% !important;
+      max-width: 35%;
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }
+  </style>
+  <style type="text/css">
+    :root {
+      --bs-blue: #0d6efd;
+      --bs-indigo: #6610f2;
+      --bs-purple: #6f42c1;
+      --bs-pink: #d63384;
+      --bs-red: #dc3545;
+      --bs-orange: #fd7e14;
+      --bs-yellow: #ffc107;
+      --bs-green: #198754;
+      --bs-teal: #20c997;
+      --bs-cyan: #0dcaf0;
+      --bs-white: #fff;
+      --bs-gray: #6c757d;
+      --bs-gray-dark: #343a40;
+      --bs-gray-100: #f8f9fa;
+      --bs-gray-200: #e9ecef;
+      --bs-gray-300: #dee2e6;
+      --bs-gray-400: #ced4da;
+      --bs-gray-500: #adb5bd;
+      --bs-gray-600: #6c757d;
+      --bs-gray-700: #495057;
+      --bs-gray-800: #343a40;
+      --bs-gray-900: #212529;
+      --bs-primary: #0d6efd;
+      --bs-secondary: #6c757d;
+      --bs-success: #198754;
+      --bs-info: #0dcaf0;
+      --bs-warning: #ffc107;
+      --bs-danger: #dc3545;
+      --bs-light: #f8f9fa;
+      --bs-dark: #212529;
+      --bs-primary-rgb: 13, 110, 253;
+      --bs-secondary-rgb: 108, 117, 125;
+      --bs-success-rgb: 25, 135, 84;
+      --bs-info-rgb: 13, 202, 240;
+      --bs-warning-rgb: 255, 193, 7;
+      --bs-danger-rgb: 220, 53, 69;
+      --bs-light-rgb: 248, 249, 250;
+      --bs-dark-rgb: 33, 37, 41;
+      --bs-white-rgb: 255, 255, 255;
+      --bs-black-rgb: 0, 0, 0;
+      --bs-body-color-rgb: 33, 37, 41;
+      --bs-body-bg-rgb: 255, 255, 255;
+      --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+      --bs-body-font-family: var(--bs-font-sans-serif);
+      --bs-body-font-size: 1rem;
+      --bs-body-font-weight: 400;
+      --bs-body-line-height: 1.5;
+      --bs-body-color: #212529;
+      --bs-body-bg: #fff;
+    }
+
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      border-radius: 0.25rem;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .btn {
+        transition: none;
+      }
+    }
+
+    .btn:hover {
+      color: #212529;
+    }
+
+    .btn-primary {
+      color: #fff;
+      background-color: #0d6efd;
+      border-color: #0d6efd;
+    }
+
+    .btn-primary:hover {
+      color: #fff;
+      background-color: #0b5ed7;
+      border-color: #0a58ca;
+    }
+
+    .btn-success {
+      color: #fff;
+      background-color: #198754;
+      border-color: #198754;
+    }
+
+    .btn-success:hover {
+      color: #fff;
+      background-color: #157347;
+      border-color: #146c43;
+    }
+
+    .btn-warning {
+      color: #000;
+      background-color: #ffc107;
+      border-color: #ffc107;
+    }
+
+    .btn-warning:hover {
+      color: #000;
+      background-color: #ffca2c;
+      border-color: #ffc720;
+    }
+
+    .mt-2 {
+      margin-top: 0.5rem !important;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+</head>
+
+<body style="word-spacing:normal;">
+  <div style="">
+
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+
+              <div class="mj-column-per-60 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Roboto, Helvetica, sans-serif;font-size:10px;font-weight:300;line-height:24px;text-align:left;color:#616161;">Your weekly update on our community project is here!</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:240px;" ><![endif]-->
+              <div class="mj-column-per-40 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="right" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:300;line-height:24px;text-align:right;color:#616161;">Legal Tech Kenya</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:550px;">
+                                <a href="" target="_blank">
+                                  <img height="auto" src="week1.png" style="border:0;display:block;outline:none;text-decoration:none;width:100%;font-size:13px;" width="550" />
+                                </a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:300;line-height:24px;text-align:center;color:#616161;">Your weekly update on our community project is here!</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:270px;" ><![endif]-->
+              <div class="mj-column-per-45 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <div style="font-family:Roboto, Helvetica, sans-serif;font-size:18px;font-weight:500;line-height:24px;text-align:center;color:#616161;">ISSUE #5 - February 2022</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <p style="border-top:solid 2px #616161;font-size:1px;margin:0px auto;width:100%;">
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <p style="border-top:solid 2px #616161;font-size:1px;margin:0px auto;width:45%;">
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0px;padding-top:30px;text-align:center;">
+
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Roboto, Helvetica, sans-serif;font-size:16px;font-weight:300;line-height:24px;text-align:left;color:#616161;">
+                          <p>Hello Members!</p>
+                          <p>We continue to approach our goal with every passing week. Thank you for your amazing contributions to this project.
+                            <br />As with the previous week, the focus of this phase of the project is on product design. So far, the following tasks are complete:
+                          <ul>
+                            <li class="mb-4">
+                              Authentication & Authorization Microservices - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Abstract Base Models - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Backend API Docs - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Error Logging - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Cron Jobs - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Backend Tests - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Request - response and application logging - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Notification Microservices - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                          </ul>
+                          The following product design tasks are also complete:
+                          <ul>
+                            <li class="mb-4">
+                              Landing Page UI - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Login Page UI - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Advocate's Registration Page UI - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Property Owner's Registration Page UI - <span><button class="btn btn-success btn-sm">Complete</button></span>
+                            </li>
+                          </ul>
+                          </p>
+                          <p>
+                            We are well within our project timeline, and we should have a minimum viable product within a few weeks.<br />
+                            There are a few remaining product design tasks, but after these, the next phase of our development will involve testing.<br />
+                            Our developers will create a test link that will be shared with all members, for testing and feedback on both frontend and backend elements..<br />
+                          </p>
+                          <p>
+                            The following tasks are open and available for pickup. We will add a few more product design tasks in the coming days:
+                          <ul>
+                            <li class="mb-4">
+                              Property Owner's Dashboard (General Outline & Messages Page) - <span><button class="btn btn-primary btn-sm">Open</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Advocate's Dashboard (General Outline & Messages Page) - <span><button class="btn btn-primary btn-sm">Open</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Advocate's Roles (Backend) - <span><button class="btn btn-primary btn-sm">Open</button></span>
+                            </li>
+                            <li class="mb-4">
+                              Purchaser's Roles (Backend) - <span><button class="btn btn-primary btn-sm">Open</button></span>
+                            </li>
+                          </ul>
+                          </p>
+                          <p>
+                            Where any of the resources or tasks are not clear, feel free to ask for clarification through our <a href="https://join.slack.com/t/legaltechkeny-daq4661/shared_invite/zt-11lxppro2-UQN_UfXix5KSNe0Ak82YtA" role="button"
+                              class="button-59">Slack Channel</a>.
+                          </p>
+                          <p>
+                            You can access or share design elements you create through this link: <a href="https://drive.google.com/drive/folders/1xvVVlfgwiBQ81ifpdwr_98Fn6jsIuhkS?usp=sharing" role="button" class="button-59"><span
+                                class="text">Product Design Folder</span></a>
+                          </p>
+                          <p>
+                            Thank you for your continued contributions to this amazing project.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:390px;" ><![endif]-->
+              <div class="mj-column-per-65 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:150px;">
+                                <a href="https://recast.ai?ref=newsletter" target="_blank">
+                                  <img height="auto" src="ltk.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" />
+                                </a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:210px;" ><![endif]-->
+              <div class="mj-column-per-35 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Roboto, Helvetica, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
+                          <tr style="list-style: none;line-height:1">
+                            <td> <a href="https://twitter.com/LegalTechKenya">
+                                <i class="fab fa-twitter fa-2x"></i>
+                              </a> </td>
+                            <td> <a href="https://www.facebook.com/Legal-Tech-Kenya-101974725205879/">
+                                <i class="fab fa-facebook fa-2x"></i>
+                              </a> </td>
+                            <td> <a href="https://instagram.com/legaltechkenya">
+                                <i class="fab fa-instagram fa-2x"></i>
+                              </a> </td>
+                            <td> <a href="https://www.youtube.com/channel/UCbMiupDNlU3ZJqTBPxa4aFg">
+                                <i class="fab fa-youtube fa-2x"></i>
+                              </a> </td>
+                            <td> <a href="https://www.linkedin.com/company/legal-technologies-kenya-limited">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                              </a> </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+
+</html>
